@@ -1,0 +1,14 @@
+.popup__back {
+    position: absolute;
+    top: 24px;
+    left: 55px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #02A69B;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 0;
+
+}

@@ -1,0 +1,16 @@
+ .popup__button-change {
+    display: block;
+    margin-top: 25px;
+    width: 328px;
+    margin-top: 38px;
+    padding: 0;;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: #02A69B;
+    cursor: pointer;
+}

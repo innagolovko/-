@@ -1,0 +1,13 @@
+.box__round {
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+    border-radius: 100%;
+    background-color: #FFD770;
+    background-image: url(/image/icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

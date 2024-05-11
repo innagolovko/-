@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Смена пароля</title>
+    <meta charset="UTF-8">
+   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="page">
+<div class="page__content">
+
+    <header class="head page__header">
+        <h1 class="header__title">Смена пароля</h1>
+    </header>
+
+        <!--Секция form-->
+
+        <section class="form page__form">
+
+            <form name="password" method="post" class="form__info">
+                 <h2 class="form__password">Новый пароль</h2>
+          <input type="text"
+            class="form__input-container form__input-container_ctrl_password"
+            name="password"
+            placeholder="Введите новый пароль"
+            required>
+            <!--  required - определяет, что для отправки формы данное поле предварительно должно быть заполнено -->
+
+            <h2 class="form__new-password">Повторите новый пароль</h2>
+          <input type="text"
+              class="form__input-container popup__input-container_ctrl_new-password"
+              name="new-password"
+              placeholder="Повторите новый пароль"
+              required>
+          <input type="checkbox" name="end-sessions" id="end-sessions"
+              class="form__input-container_ctrl_end-sessions"
+              value="end-sessions">
+            <label for="end-sessions"
+               class="form__label form__label_end-sessions">Завершить сеансы на других устройствах</label>
+
+            <button type="submit" class="form__button-change">Сменить пароль</button>
+
+        </form>
+
+        </section>
+
+       <!--Секция password-->
+
+        <section class="password page__password">
+            <h3 class="password__title">Пароли для FTP и SSH</h3>
+            <p class="password__text">По умолчанию для авторизации используется пароль от профиля.
+            <p class="password__text">Сменить пароль, узнать сервер и IP адрес можно в разделе «Управление сайтами».</p>
+
+        <div class="password__button-blok">
+            <button type="button" class="password__button-management">Управление сайтами
+            <img src="./image/vector_arrow.svg" class="password__arrow" alt="стрелка">
+            </button>
+          <a href="#" class="password__link">Как настроить?</a>
+        </div>
+        <h3 class="password__title-access">Доступ для разработчиков</h3>
+         <p class="password__text">Безопасная передача прав для управления
+         <p class="password__text">и настройки сайтов, с помощью функции
+         <p class="password__text">делегирования доступа.</p>
+
+         <button type="button" class="password__button-account">Управление сайтами</button>
+
+         <img src="./image/picture1.svg" class="password__picture" alt="картинка">
+
+        </section>
+
+        <!--Секция box-->
+
+        <section class="box page__box">
+
+           <div class="box__square">
+            <div class="box__round">
+             <p class="box__text-bold">Используйте сложные пароли и не сохраняйте их&nbsp;в&nbsp;браузере.</p>
+             <p class="box__text">Данные меры цифровой безопасности помогают предотвратить взлом профиля.</p>
+             </div>
+           </div>
+
+        </section>
+
+        <!-- Секция popup -->
+
+        <section class="popup">
+           <div class="popup__container">
+            <img src="/image/back.svg" class="popup__arrow-back" alt="назад">
+            <button aria-label="back" type="button" class="popup__back">Назад</button>
+          <button aria-label="Close" type="button" class="popup__close">Закрыть</button>
+        <h4 class="popup__title">Смените пароль, если вы заметили подозрительную активность в своем<br>профиле</h4>
+
+          <form name="password" method="post" class="popup__info">
+                 <h2 class="popup__password">Новый пароль</h2>
+          <input type="text"
+            class="popup__input-container popup__input-container_ctrl_password"
+            name="password"
+            placeholder="Введите новый пароль"
+            required>
+                 <h2 class="popup__new-password">Повторите новый пароль</h2>
+          <input type="text"
+            class="popup__input-container popup__input-container_ctrl_new-password"
+            name="new-password"
+            placeholder="Повторите новый пароль"
+            required>
+            <input type="checkbox" name="exit-sessions" id="exit-sessions"
+           class="popup__input-container_ctrl_exit-sessions" value="exit-sessions">
+            <label for="exit-sessions"
+            class="popup__label_exit-sessions">Выйти со всех других устройств</label>
+
+            <button type="submit" class="popup__button-change">Сменить пароль</button>
+        </form>
+           </div>
+        </section>
+      </div>
+
+        <!-- Секция script -->
+
+        <!-- <script src="https://code.s3.yandex.net/web-code/smoothly.js"></script> -->
+        <script src="/script.js"></script>
+
+</body>
+</html>
+
+
+<!-- ReactDOM.render((<div> {isDaylight ? (<h2>Добрый день!</h2> ) : (<h2>Спокойной ночи!</h2>)}
+  </div>
+), document.querySelector('#root')); -->

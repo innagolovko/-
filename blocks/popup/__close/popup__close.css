@@ -1,0 +1,17 @@
+.popup__close {
+    position: absolute;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    width: 46px;
+    height: 12px;
+    top: 32px;
+    right: 32px;
+    background-color: white;
+    color: #8E90A6;
+    border: none;
+    border-bottom: 1px solid #02A69B;
+    border-bottom-style: dashed;
+    padding: 0;
+    cursor: pointer;
+}

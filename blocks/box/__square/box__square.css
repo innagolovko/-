@@ -1,0 +1,17 @@
+.box__square {
+    display: flex;
+    position: absolute;
+    width: 230px;
+    height: 180px;
+    border: 2px solid #FFD770;
+    background-color: white;
+    border-radius: 10px;
+    top: 110px;
+    right: 0;  
+}
+
+@media screen and (max-width: 767px) {
+    .box__square {
+       left: 0;
+    }
+}

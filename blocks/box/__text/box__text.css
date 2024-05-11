@@ -1,0 +1,12 @@
+.box__text {
+    display: flex;
+    position: absolute;
+    width: 208px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400px;
+    top: 110px;
+    left: 7px;
+    color: #555770;
+    margin: 0;
+}

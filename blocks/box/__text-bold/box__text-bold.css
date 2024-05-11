@@ -1,0 +1,12 @@
+.box__text-bold {
+    display: flex;
+    position: absolute;
+    width: 208px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    top: 45px;
+    left: 7px;
+    color: #28293D;
+    margin: 0;
+}
