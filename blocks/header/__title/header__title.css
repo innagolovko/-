@@ -5,3 +5,9 @@
     margin: 0;
     color: #1C1C28;
 }
+
+@media screen and (max-width: 767px) {
+    .header__title {
+       min-width: 280px;
+    }
+}

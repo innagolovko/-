@@ -12,3 +12,9 @@
     background-color: #02A69B;
     cursor: pointer;
 }
+
+@media screen and (max-width: 767px) {
+    .form__button-change {
+       width: 280px;
+    }
+}

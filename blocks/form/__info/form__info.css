@@ -1,0 +1,9 @@
+.form__info {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .form__info {
+        width: 280px;
+    }
+}

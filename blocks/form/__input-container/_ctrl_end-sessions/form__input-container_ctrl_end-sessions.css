@@ -5,3 +5,9 @@
     height: 20px;
     border-color: #555770;
 }
+
+@media screen and (max-width: 767px) {
+    .form__input-container_ctrl_end-sessions {
+       width: 280px;
+    }
+}

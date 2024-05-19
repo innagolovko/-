@@ -6,7 +6,17 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   font-family: 'Inter', Arial, sans-serif;
-  width: 834px;
+  max-width: 834px;
+  min-width: 320px;
   min-height: 1048px;
   margin: auto;
 }
+
+ @media screen and (max-width: 767px) {
+    .page {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* * { outline: 1px solid yellow; } */

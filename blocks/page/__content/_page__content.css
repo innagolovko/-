@@ -7,14 +7,15 @@
     right: 77px;
     top: 64px;
     bottom: 160px;
-}
 
+}
 
 @media screen and (max-width: 767px) {
     .page__content {
-       max-width: calc(328 / 414 * 100%);
+       width: 280px;
        top: 32px;
-       left: 43px;
-       right: 43px;
+       left: 13px;
+       right: 13px;
+       margin: 0 auto;
     }
 }
